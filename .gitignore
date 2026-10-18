@@ -5,3 +5,7 @@ slides_old_statistics.*
 images/seir62_2026.jpg
 # 旧スライド用の図
 images/第*.png
+
+# スライドは一旦非公開
+slides.pdf
+slides.typ
