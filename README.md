@@ -1,7 +1,8 @@
 # 1〜9 で 2026 を作る ― make 2026 puzzle を Julia で全部調べてみた
 
-日曜数学会 #37（2026年10月25日）の5分LTで紹介した内容の Julia ノートブックです。
+日曜数学会 #37（2026年10月25日）で発表した5分LTのスライドと，Julia のノートブックです。
 
+- スライド：[slides.pdf](slides.pdf)（ソース：[slides.typ](slides.typ)，Typst + touying）
 - ノートブック：[enzan_1to9.ipynb](enzan_1to9.ipynb)（Julia）
 - 全結果：[enzan_1to9.csv](enzan_1to9.csv)（作れる値・式の一例・式の数）
 
@@ -56,6 +57,9 @@ $$
 ## 動かし方
 
 ```sh
+# スライド
+typst compile slides.typ slides.pdf
+
 # ノートブック（Julia カーネルが必要）
 jupyter nbconvert --to notebook --execute enzan_1to9.ipynb
 ```
