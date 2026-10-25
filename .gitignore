@@ -1,7 +1,5 @@
 .DS_Store
 # 旧スライド（統計の本の紹介）
 slides_old_statistics.*
-# 出題画像は SEIR62 さんの許諾をいただいてから追加する
-images/seir62_2026.jpg
 # 旧スライド用の図
 images/第*.png
